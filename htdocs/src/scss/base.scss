@@ -1,0 +1,12 @@
+@import './mixins.scss';
+@import './variable.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap');
+
+html {
+    font-family: $notosans;
+}
+
+h2,h3,h4,h5,h6,p {
+    margin: 1em 0;
+}

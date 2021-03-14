@@ -1,0 +1,18 @@
+@mixin flex ($jc: space-between, $ai: flex-start, $ff: row wrap, $fd: '') {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-flow: $ff;
+
+    @if $fd != '' {
+        flex-direction: $fd;
+    }
+}
+
+@mixin hoverOp {
+    transition: .5s ease;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}

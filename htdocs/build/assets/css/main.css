@@ -1,0 +1,7 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap);
+.header{padding:0 20px;position:fixed;top:0;left:0;width:100%;background:hsla(0,0%,82.7%,.7)}.header__titleMainText{font-family:Noto Sans JP,sans-serif}.header__inner{height:60px}.header__inner,.header__link{display:flex;justify-content:space-between;align-items:center;flex-flow:row wrap}.header__linkItem:not(:first-child){margin-left:20px}.header__linkAnchor{font-family:Noto Sans JP,sans-serif;font-weight:700;transition:.5s ease}.header__linkAnchor:hover{opacity:.5}
+.main:before{content:"";display:block;height:60px}.main__inner{padding:10px 40px;margin:0 auto;max-width:1160px;min-height:calc(100vh - 100px);background:hsla(0,0%,82.7%,.2)}
+.footer{padding:0 20px;width:100%;background:#d3d3d3}.footer__inner{height:40px;display:flex;justify-content:flex-end;align-items:center;flex-flow:row wrap}.footer__text{text-transform:uppercase;font-size:12px}
+*{margin:0;padding:0;box-sizing:border-box}a{display:block;text-decoration:none;color:#000}ul{list-style-type:none}
+
+html{font-family:Noto Sans JP,sans-serif}h2,h3,h4,h5,h6,p{margin:1em 0}
